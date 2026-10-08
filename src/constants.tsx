@@ -16,7 +16,16 @@ export const tasks: Task[] = [
   { id: 3, title: "Learn TypeScript", priority: "Medium", completed: true },
 ];
 
-export const subjects: Subject[] = ["Select a subject", "Math", "Literature", "Biology", "English", "Chemistry", "Geography", "Music"];
+export const subjects: Subject[] = [
+  "Select a subject",
+  "Math",
+  "Literature",
+  "Biology",
+  "English",
+  "Chemistry",
+  "Geography",
+  "Music",
+];
 
 export const PRIORITIES: Priority[] = [
   "High",
