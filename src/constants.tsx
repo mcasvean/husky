@@ -24,7 +24,7 @@ export const subjects: Subject[] = [
   "English",
   "Chemistry",
   "Geography",
-  "Music",
+  "Music", 
 ];
 
 export const PRIORITIES: Priority[] = [
