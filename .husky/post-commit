@@ -2,6 +2,6 @@
 
 COMMIT_HASH=$(git rev-parse HEAD)
 
-echo "🚀 Husky post-commit hook is running!"
+echo "🚀 --- Husky post-commit hook is running! ---"
 echo "#️⃣ Commit hash: $COMMIT_HASH"
 echo "✅ Commit done!"
