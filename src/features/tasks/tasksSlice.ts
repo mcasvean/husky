@@ -4,7 +4,7 @@ import type { Task, TasksState } from "./types";
 const initialState: TasksState = {
   tasks: [
     { id: 1, task: "Go to gym", completed: true, isEditing: false },
-    { id: 2, task: "Drink water", completed: true, isEditing: false },
+    { id: 2, task: "Drink water", completed: false, isEditing: false },
     { id: 3, task: "Make groceries", completed: false, isEditing: false },
     { id: 4, task: "Bring suit", completed: false, isEditing: false },
   ],
