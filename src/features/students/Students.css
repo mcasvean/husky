@@ -1,0 +1,9 @@
+.student {
+  background-color: rgb(46, 43, 43);
+  margin-bottom: 20px;
+
+  .btn-remove {
+    color: red;
+    cursor: pointer;
+  }
+}

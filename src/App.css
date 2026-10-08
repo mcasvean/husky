@@ -1,0 +1,35 @@
+.sticky {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 40px;
+
+  background-color: rgb(49, 64, 73);
+}
+
+.scroll-loader {
+  span {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    animation: rotate 1.2s infinite linear;
+  }
+}
+
+.scroll-trigger {
+  height: 100px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

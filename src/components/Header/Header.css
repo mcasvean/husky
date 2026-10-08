@@ -1,0 +1,14 @@
+.header {
+  background-color: rgb(60, 27, 8);
+
+  a {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(70, 163, 226);
+    &:hover,
+    &.active {
+      color: white;
+    }
+  }
+}

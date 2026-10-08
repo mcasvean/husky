@@ -1,0 +1,62 @@
+.task-container {
+  position: relative;
+  background-color: rgb(73, 45, 34);
+  border-radius: 10px;
+
+  &.completed {
+    background-color: rgb(7, 72, 7);
+  }
+
+  .like-btn {
+    position: relative;
+    bottom: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .edit-btn,
+  .cancel-btn,
+  .save-btn,
+  .delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .edit-btn {
+    right: 80px;
+    background-color: rgb(78, 80, 212);
+    &.right {
+      right: 10px;
+    }
+  }
+
+  .cancel-btn {
+    right: 140px;
+    background-color: grey;
+    &.right {
+      right: 70px;
+    }
+  }
+
+  .save-btn {
+    right: 80px;
+    background-color: rgb(83, 186, 10);
+    &.right {
+      right: 10px;
+    }
+  }
+}
+
+.multiform {
+  /* border: 1px solid red; */
+  padding: 20px;
+}

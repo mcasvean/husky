@@ -1,0 +1,45 @@
+h6 {
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+.card {
+  /* border: 3px solid green; */
+  background-color: rgb(50, 16, 82);
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+
+  .card-details {
+    cursor: pointer;
+    background-color: rgb(69, 27, 107);
+
+    * {
+      cursor: text;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  span {
+    height: 14px;
+    width: 14px;
+    border: 4px dotted orangered;
+    border-radius: 50%;
+    animation: rotate 1s infinite linear;
+  }
+}

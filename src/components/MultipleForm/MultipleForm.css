@@ -1,0 +1,9 @@
+.multiple-form-container {
+  background-color: rgb(82, 3, 113);
+  border-radius: 10px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}

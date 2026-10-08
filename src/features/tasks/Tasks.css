@@ -1,0 +1,24 @@
+.task {
+  position: relative;
+  border: 1px solid red;
+  margin-bottom: 20px;
+
+  &.completed {
+    background-color: rgb(31, 88, 31);
+    color: white;
+  }
+
+  .btn {
+    margin: 10px;
+    cursor: pointer;
+
+    &.btn-remove {
+      color: rgb(234, 178, 178);
+    }
+
+    &.btn-complete {
+      color: rgb(178, 234, 179);
+    }
+  }
+}
+
